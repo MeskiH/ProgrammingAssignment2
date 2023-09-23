@@ -1,4 +1,5 @@
 # I created a function that creates matrix object that can cache its inverse
+library(MASS)
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
